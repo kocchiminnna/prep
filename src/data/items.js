@@ -39,6 +39,9 @@ export const ITEMS = [
     { id: 214, category: 'lipo', name: 'サンダル/クロックス', type: 'must', source: 'japan', reason: '足の吸引の場合、むくみで靴が入らなくなるため。', affiliateLink: 'https://www.amazon.co.jp/dp/B0C437WC9M?tag=oiwaraeru-22' },
     { id: 215, category: 'lipo', name: '少し大きめのスリッパ', type: 'recommended', source: 'japan', reason: 'ホテル内や近所の移動用に。むくみを考慮して大きめを。', affiliateLink: null },
     { id: 216, category: 'lipo', name: 'かぼちゃスープ', type: 'recommended', source: 'korea', reason: 'むくみを早く引かせるために現地で調達しましょう。', affiliateLink: 'https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%8E%E3%83%BC%E3%83%AB+%E3%81%8B%E3%81%BC%E3%81%A1%E3%82%83%E3%82%B9%E3%83%BC%E3%83%97&tag=oiwaraeru-22' },
+    { id: 217, category: 'lipo', name: 'フェイスバンド', type: 'must', source: 'japan', reason: '顔の脂肪吸引後の固定と腫れ抑制に。クリニックで指定がない場合にあると安心。', affiliateLink: 'https://www.amazon.co.jp/dp/B0BWTDMFKY?tag=oiwaraeru-22' },
+    { id: 218, category: 'lipo', name: '着圧レギンス', type: 'must', source: 'japan', reason: '足の脂肪吸引後の圧迫固定とむくみ対策に。メディキュットなどが定番。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CQ3FF6WT?tag=oiwaraeru-22' },
+    { id: 219, category: 'lipo', name: '二の腕用の着圧サポーター', type: 'must', source: 'japan', reason: '二の腕の脂肪吸引後の固定に。', affiliateLink: 'https://www.amazon.co.jp/dp/B08QDBY5RB?tag=oiwaraeru-22' },
 
     // --- リフトアップ (Lift) ---
     { id: 301, category: 'lift', name: '帽子 (バケットハット)', type: 'must', source: 'japan', reason: 'フェイスバンドや傷跡を隠すために深めの帽子が必須です。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CNP6FB9H?tag=oiwaraeru-22' },
