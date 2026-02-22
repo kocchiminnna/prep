@@ -59,7 +59,7 @@ const ItemCard = ({ item, isChecked, onToggle }) => {
                     </h3>
 
                     <div className="flex items-center gap-1 text-slate-400 text-xs">
-                        <span>なぜ必要？</span>
+                        <span>{item.type === 'waste' ? 'なぜ不要？' : 'なぜ必要？'}</span>
                         {isExpanded ? <ChevronUp size={12} /> : <ChevronDown size={12} />}
                     </div>
                 </div>
