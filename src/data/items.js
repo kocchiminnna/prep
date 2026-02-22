@@ -42,6 +42,12 @@ export const ITEMS = [
     { id: 217, category: 'lipo', name: 'フェイスバンド', type: 'must', source: 'japan', reason: '顔の脂肪吸引後の固定と腫れ抑制に。クリニックで指定がない場合にあると安心。', affiliateLink: 'https://www.amazon.co.jp/dp/B0BWTDMFKY?tag=oiwaraeru-22' },
     { id: 218, category: 'lipo', name: '着圧レギンス', type: 'must', source: 'japan', reason: '足の脂肪吸引後の圧迫固定とむくみ対策に。メディキュットなどが定番。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CQ3FF6WT?tag=oiwaraeru-22' },
     { id: 219, category: 'lipo', name: '二の腕用の着圧サポーター', type: 'must', source: 'japan', reason: '二の腕の脂肪吸引後の固定に。', affiliateLink: 'https://www.amazon.co.jp/dp/B08QDBY5RB?tag=oiwaraeru-22' },
+    { id: 220, category: 'lipo', name: '大きめのバケットハット', type: 'must', source: 'japan', reason: '顔の脂肪吸引をした場合、圧迫着を隠すのに深めの帽子が必須。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CNP6FB9H?tag=oiwaraeru-22' },
+    { id: 221, category: 'lipo', name: '細めのストロー', type: 'must', source: 'japan', reason: '術後は起き上がるのが辛いため、寝たまま水分補給できるように。', affiliateLink: 'https://www.amazon.co.jp/dp/B0FSCNNB3M?tag=oiwaraeru-22' },
+    { id: 222, category: 'lipo', name: 'コーン茶', type: 'recommended', source: 'japan', reason: '利尿作用があり、むくみを取るのに効果的。カフェインレスで安心。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CHCXK4KJ?tag=oiwaraeru-22' },
+    { id: 223, category: 'lipo', name: '小さめのスプーン', type: 'must', source: 'japan', reason: '顔の脂肪吸引をした場合、口が開きにくくなるため小さいスプーンが便利。', affiliateLink: 'https://www.amazon.co.jp/dp/B08VW37D61?tag=oiwaraeru-22' },
+    { id: 224, category: 'lipo', name: 'クッション', type: 'recommended', source: 'japan', reason: '太ももやお尻周りの脂肪吸引後、座る時の痛み軽減に。', affiliateLink: 'https://www.amazon.co.jp/dp/B0DV4HXHZB?tag=oiwaraeru-22' },
+    { id: 225, category: 'lipo', name: 'ノズル付きボトル', type: 'must', source: 'japan', reason: '顔の脂肪吸引後、口が開きにくい時の水分補給やうがいに便利。', affiliateLink: 'https://www.amazon.co.jp/dp/B08ZZ3JYN1?tag=oiwaraeru-22' },
 
     // --- リフトアップ (Lift) ---
     { id: 301, category: 'lift', name: '帽子 (バケットハット)', type: 'must', source: 'japan', reason: 'フェイスバンドや傷跡を隠すために深めの帽子が必須です。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CNP6FB9H?tag=oiwaraeru-22' },
@@ -64,6 +70,11 @@ export const ITEMS = [
     { id: 406, category: 'eye', name: '綿棒', type: 'must', source: 'japan', reason: '目元の細かい汚れ取りや軟膏塗布に。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CFZRYCKQ?tag=oiwaraeru-22' },
     { id: 407, category: 'eye', name: 'かぼちゃスープ', type: 'recommended', source: 'korea', reason: 'むくみ対策に。', affiliateLink: 'https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%8E%E3%83%BC%E3%83%AB+%E3%81%8B%E3%81%BC%E3%81%A1%E3%82%83%E3%82%B9%E3%83%BC%E3%83%97&tag=oiwaraeru-22' },
     { id: 408, category: 'eye', name: '洗顔シート', type: 'must', source: 'japan', reason: '抜糸までは目元を濡らせないため、顔全体はシートで洗顔します。', affiliateLink: 'https://www.amazon.co.jp/dp/B09MHWYL1V?tag=oiwaraeru-22' },
+    { id: 409, category: 'eye', name: 'ドルマイシン軟膏', type: 'must', source: 'japan', reason: '病院からもらった軟膏がなくなったとき用に。殺菌・消毒に。', affiliateLink: 'https://www.amazon.co.jp/dp/B005UIZY1C?tag=oiwaraeru-22' },
+    { id: 410, category: 'eye', name: '目元用洗浄綿', type: 'must', source: 'japan', reason: '目脂や血混じりの涙を拭く用に。個包装で清潔なものがおすすめ。', affiliateLink: 'https://www.amazon.co.jp/dp/B01MG5K4N1?tag=oiwaraeru-22' },
+    { id: 411, category: 'eye', name: '帽子', type: 'must', source: 'japan', reason: 'ダウンタイム中の外出時に目元を隠すのに便利。', affiliateLink: 'https://www.amazon.co.jp/dp/B0CNP6FB9H?tag=oiwaraeru-22' },
+    { id: 412, category: 'eye', name: '保冷剤', type: 'must', source: 'japan', reason: '術後数日は冷やすことが重要。いくつか持っておくと交互に使えます。', affiliateLink: null },
+    { id: 413, category: 'eye', name: '冷えピタ', type: 'recommended', source: 'japan', reason: '術後に微熱が出ることがあるので、おでこなどに貼って冷やす用。', affiliateLink: null },
 
     // --- 鼻整形 (Nose) ---
     { id: 501, category: 'nose', name: '小さめの歯ブラシ', type: 'must', source: 'japan', reason: '鼻の下が動かせず口が大きく開けられないため、ヘッドが小さい子供用が必須。', affiliateLink: 'https://www.amazon.co.jp/dp/B01MR6SU4B?tag=oiwaraeru-22' },
@@ -85,6 +96,9 @@ export const ITEMS = [
     { id: 517, category: 'nose', name: '鼻うがいキット', type: 'recommended', source: 'japan', reason: '術後の鼻詰まり解消や清潔保持に（医師の指示に従って使用）。', affiliateLink: 'https://www.amazon.co.jp/dp/B09HH58HXT?tag=oiwaraeru-22' },
     { id: 518, category: 'nose', name: '濡れてるコットン', type: 'recommended', source: 'japan', reason: '目やにや顔の汚れを優しく拭き取るのに。', affiliateLink: 'https://www.amazon.co.jp/dp/B00BES4GKM?tag=oiwaraeru-22' },
     { id: 519, category: 'nose', name: 'プロテイン', type: 'recommended', source: 'japan', reason: '組織の修復にはタンパク質が必要です。', affiliateLink: 'https://www.amazon.co.jp/dp/B072TSRJ6D?tag=oiwaraeru-22' },
+    { id: 520, category: 'nose', name: 'ドルマイシン軟膏', type: 'must', source: 'japan', reason: '病院からもらった軟膏がなくなったとき用に。', affiliateLink: 'https://www.amazon.co.jp/dp/B005UIZY1C?tag=oiwaraeru-22' },
+    { id: 521, category: 'nose', name: 'のどぬーるスプレー', type: 'must', source: 'japan', reason: '鼻が詰まって口呼吸になり、喉を痛めやすいため。', affiliateLink: 'https://www.amazon.co.jp/dp/B000YZN4OK?tag=oiwaraeru-22' },
+    { id: 522, category: 'nose', name: '前開きの服', type: 'must', source: 'japan', reason: '鼻をぶつけないよう、脱ぎ着が楽な前開きの服が必須。', affiliateLink: null },
 
     // --- 骨切り (Bone) ---
     { id: 601, category: 'bone', name: '小さいスプーン (デザート用)', type: 'must', source: 'japan', reason: '口が開かないため、小さいスプーンでないと食事ができません。コンビニでもらっておくと良い。', affiliateLink: 'https://www.amazon.co.jp/dp/B08VW37D61?tag=oiwaraeru-22' },
@@ -100,8 +114,11 @@ export const ITEMS = [
     { id: 613, category: 'bone', name: 'かぼちゃスープ', type: 'recommended', source: 'korea', reason: '腫れケアに。', affiliateLink: 'https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%8E%E3%83%BC%E3%83%AB+%E3%81%8B%E3%81%BC%E3%81%A1%E3%82%83%E3%82%B9%E3%83%BC%E3%83%97&tag=oiwaraeru-22' },
     { id: 614, category: 'bone', name: '個包装綿棒', type: 'recommended', source: 'japan', reason: '口内や鼻のケアに。', affiliateLink: 'https://www.amazon.co.jp/dp/B0FKFQK7PX?tag=oiwaraeru-22' },
     { id: 615, category: 'bone', name: 'シャンプーハット', type: 'recommended', source: 'japan', reason: 'こめかみの傷口を濡らさないように髪を洗うために必要。', affiliateLink: 'https://www.amazon.co.jp/dp/B085XF6JNV?tag=oiwaraeru-22' },
+    { id: 616, category: 'bone', name: '細めのストロー', type: 'must', source: 'japan', reason: '口が少ししか開かないため、細いストローでないと飲み物が飲めません。', affiliateLink: 'https://www.amazon.co.jp/dp/B0FSCNNB3M?tag=oiwaraeru-22' },
+    { id: 617, category: 'bone', name: 'ノズル付きボトル', type: 'must', source: 'japan', reason: '口が開きにくい期間の水分補給やうがいに必須レベルで便利。', affiliateLink: 'https://www.amazon.co.jp/dp/B08ZZ3JYN1?tag=oiwaraeru-22' },
 
     // --- いらなかったもの (Waste) ---
     { id: 901, category: 'nose', name: 'シャンプーハット', type: 'waste', source: 'japan', reason: '現地で美容室に行ってシャンプーしてもらう場合は不要でした。', affiliateLink: null },
     { id: 902, category: 'lipo', name: '大量の服', type: 'waste', source: 'japan', reason: '術後は痛みで着替えが大変なので、同じ楽な服ばかり着ることになります。', affiliateLink: null },
+    { id: 903, category: 'eye', name: '冷えピタ', type: 'waste', source: 'japan', reason: '目周りを冷やすときは保冷剤等で冷やすべき。', affiliateLink: null },
 ];
