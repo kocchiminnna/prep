@@ -260,6 +260,16 @@ function App() {
         </main>
       )}
 
+      <footer className="py-8 flex justify-center">
+        <a
+          href="https://x.com/gn0ycrb0ha65833"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-[10px] text-slate-300 hover:text-rose-300 transition-colors border-b border-dashed border-slate-200 pb-0.5"
+        >
+          管理人X: @gn0ycrb0ha65833
+        </a>
+      </footer>
     </div>
   );
 }
