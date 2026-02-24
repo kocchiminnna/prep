@@ -21,6 +21,7 @@ export const ITEMS = [
     { id: 109, category: 'breast', name: '経口補水液 (OS-1)', type: 'must', source: 'japan', reason: '絶食前の水分補給と、術後の脱水対策に。回復が早くなります。', affiliateLink: 'https://www.amazon.co.jp/dp/B00E5W6BIY?tag=oiwaraeru22-22' },
     { id: 110, category: 'breast', name: '防水テープ', type: 'must', source: 'japan', reason: 'シャワーが可能になった後も、傷口を濡らさないように保護するため。', affiliateLink: 'https://www.amazon.co.jp/dp/B0BW31826Q?tag=oiwaraeru22-22' },
     { id: 111, category: 'breast', name: 'ガーゼ', type: 'must', source: 'japan', reason: '滲出液が出た場合のこまめな交換用に。', affiliateLink: 'https://www.amazon.co.jp/dp/B000V2FGOM?tag=oiwaraeru22-22' },
+    { id: 113, category: 'breast', name: 'ワセリン', type: 'recommended', source: 'japan', reason: '傷跡の乾燥を防ぎ、ケロイドや色素沈着を予防するために保湿が大切。抜糸後から使えます。', affiliateLink: 'https://www.amazon.co.jp/dp/B0041CYLWQ?tag=oiwaraeru22-22' },
     { id: 112, category: 'breast', name: 'かぼちゃスープ', type: 'recommended', source: 'korea', reason: '韓国では定番のむくみ取りドリンク。現地の薬局やオリヤンで購入可能。', affiliateLink: 'https://www.amazon.co.jp/s?k=%E3%82%AF%E3%83%8E%E3%83%BC%E3%83%AB+%E3%81%8B%E3%81%BC%E3%81%A1%E3%82%83%E3%82%B9%E3%83%BC%E3%83%97&tag=oiwaraeru22-22' },
 
     // --- 脂肪吸引 (Lipo) ---
@@ -116,6 +117,8 @@ export const ITEMS = [
     { id: 615, category: 'bone', name: 'シャンプーハット', type: 'recommended', source: 'japan', reason: 'こめかみの傷口を濡らさないように髪を洗うために必要。', affiliateLink: 'https://www.amazon.co.jp/dp/B085XF6JNV?tag=oiwaraeru22-22' },
     { id: 616, category: 'bone', name: '細めのストロー', type: 'must', source: 'japan', reason: '口が少ししか開かないため、細いストローでないと飲み物が飲めません。', affiliateLink: 'https://www.amazon.co.jp/dp/B0FSCNNB3M?tag=oiwaraeru22-22' },
     { id: 617, category: 'bone', name: 'ノズル付きボトル', type: 'must', source: 'japan', reason: '口が開きにくい期間の水分補給やうがいに必須レベルで便利。', affiliateLink: 'https://www.amazon.co.jp/dp/B08ZZ3JYN1?tag=oiwaraeru22-22' },
+    { id: 618, category: 'bone', name: 'ワセリン', type: 'recommended', source: 'japan', reason: '傷跡の乾燥を防いで保護することで、赤みやケロイドの予防に。抜糸後から傷跡にそっと塗りましょう。', affiliateLink: 'https://www.amazon.co.jp/dp/B0041CYLWQ?tag=oiwaraeru22-22' },
+    { id: 619, category: 'bone', name: 'ネックピロー', type: 'must', source: 'japan', reason: '術後は頭を高くして寝る必要があるため、座って寝る際に首を支えてくれます。', affiliateLink: 'https://www.amazon.co.jp/dp/B08P5JPNDM?tag=oiwaraeru22-22' },
 
     // --- いらなかったもの (Waste) ---
     { id: 901, category: 'nose', name: 'シャンプーハット', type: 'waste', source: 'japan', reason: '現地で美容室に行ってシャンプーしてもらう場合は不要でした。', affiliateLink: null },
